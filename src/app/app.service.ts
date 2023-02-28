@@ -5,7 +5,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 export class AppService {
-  readonly rootURL = 'http://localhost:1168/api';
+  readonly rootURL = 'http://localhost:49515/api';
 
   constructor(private http: HttpClient) { }
 
@@ -16,7 +16,7 @@ export class AppService {
   }
 
   // Retorna todos registros
-  getDAta() {
+  getData() {
     return this.http.get(this.rootURL + '/Pagamentos');
   }
 
