@@ -3,6 +3,8 @@
 Frontend do projeto de estudo de detalhes de pagamentos de um cartão de Crédito usando as tecnologias ASP .NET Core Web API versão 3.1 e interface web com Angular 9
 <p>Este estudo teve como base o tutorial do Macoratti, disponível em: https://macoratti.net/20/08/ang9_crudapi2.htm</p>
 
+<img src="./img/PagamentoCartao.fw.png" />
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
